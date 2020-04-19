@@ -83,7 +83,7 @@
 					<!-- section 1 -->
 					<section id="tm-section-1" class="tm-section">
 						<div class="ml-auto">
-							<header class="mb-4"><h1 class="tm-text-shadow">Reproducir Radio</h1></header>
+							<header class="mb-4"><h1 class="tm-text-shadow">Reproducir Radio RC</h1></header>
 							<p class="mb-5 tm-font-big">
 
 							</p>
@@ -95,8 +95,10 @@
 
 												<!-- <h2>Escuchar Radio</h2> -->
 												<div>
-													<audio controls="" autoplay=""  src="http://162.210.196.145:27660"  type="audio/mpeg"></audio>
+													<audio id="myAudio" controls  src="http://162.210.196.145:27660/;"  type="audio/mpeg"></audio>
 												</div>
+
+
 												<!-- <div class="progresRight clearfix">
 														<audio id="jp_audio_0" preload="metadata" src="https://freeus5.listen2myradio.com/live.mp3?typeportmount=s1_27660_stream"></audio><div id="jquery_jplayer_1" class="jp-jplayer" style="width: 0px; height: 0px;"><img id="jp_poster_0" style="width: 0px; height: 0px; display: none;"></div><div class="player_title_outer">
 															<div class="title_radio">
@@ -235,8 +237,7 @@
 
 		<script>
 
-
-
+document.getElementById("myAudio").play();
 
 		var sidebarVisible = false;
 		var currentPageID = "#tm-section-1";
