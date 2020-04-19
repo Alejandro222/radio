@@ -88,31 +88,9 @@
 
 							</p>
 
+							<audio src="http://50.22.219.97:7346/;" controls>
 
-
-
-											<!-- <div class="p-5"> -->
-
-												<!-- <h2>Escuchar Radio</h2> -->
-												<div>
-													<audio controls  src="http://162.210.196.145:27660/;"  type="audio/mpeg"></audio>
-												</div>
-
-
-												<!-- <div class="progresRight clearfix">
-														<audio id="jp_audio_0" preload="metadata" src="https://freeus5.listen2myradio.com/live.mp3?typeportmount=s1_27660_stream"></audio><div id="jquery_jplayer_1" class="jp-jplayer" style="width: 0px; height: 0px;"><img id="jp_poster_0" style="width: 0px; height: 0px; display: none;"></div><div class="player_title_outer">
-															<div class="title_radio">
-																<label>Current Listeners: <meta http-equiv="Pragma" content="no-cache"></label>
-															</div>
-														</div>
-												</div> -->
-												<!-- <h3>Horarios de Transmisión</h3>
-												<p>Viernes: 9:30 pm - 11:00 pm</p>
-												<p>Sabados: 9:30 pm - 11:00 pm</p>
-												<p>Domingos: 5:00 pm - 10:00 pm</p> -->
-
-											<!-- </div> -->
-
+							</audio>
 
 						</div>
 					</section>
@@ -402,9 +380,6 @@
 			    });
       		}
 		});
-
-
-
 
 		</script>
 	</body>
