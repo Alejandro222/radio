@@ -4,6 +4,7 @@
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="icon" type="image/png" href="img/radio.png" />
 
 	<title>Radio RC</title>
 
@@ -82,10 +83,36 @@
 					<!-- section 1 -->
 					<section id="tm-section-1" class="tm-section">
 						<div class="ml-auto">
-							<header class="mb-4"><h1 class="tm-text-shadow">Reproducir Radio</h1></header>
+							<header class="mb-4"><h1 class="tm-text-shadow">Reproducir Radio RC</h1></header>
 							<p class="mb-5 tm-font-big">
 
 							</p>
+
+
+
+
+											<!-- <div class="p-5"> -->
+
+												<!-- <h2>Escuchar Radio</h2> -->
+												<div>
+													<audio id="myAudio" controls  src="http://162.210.196.145:27660/;"  type="audio/mpeg"></audio>
+												</div>
+
+
+												<!-- <div class="progresRight clearfix">
+														<audio id="jp_audio_0" preload="metadata" src="https://freeus5.listen2myradio.com/live.mp3?typeportmount=s1_27660_stream"></audio><div id="jquery_jplayer_1" class="jp-jplayer" style="width: 0px; height: 0px;"><img id="jp_poster_0" style="width: 0px; height: 0px; display: none;"></div><div class="player_title_outer">
+															<div class="title_radio">
+																<label>Current Listeners: <meta http-equiv="Pragma" content="no-cache"></label>
+															</div>
+														</div>
+												</div> -->
+												<!-- <h3>Horarios de Transmisión</h3>
+												<p>Viernes: 9:30 pm - 11:00 pm</p>
+												<p>Sabados: 9:30 pm - 11:00 pm</p>
+												<p>Domingos: 5:00 pm - 10:00 pm</p> -->
+
+											<!-- </div> -->
+
 
 						</div>
 					</section>
@@ -209,6 +236,8 @@
 		<script type="text/javascript" src="slick/slick.min.js"></script> <!-- Slick Carousel -->
 
 		<script>
+
+document.getElementById("myAudio").play();
 
 		var sidebarVisible = false;
 		var currentPageID = "#tm-section-1";
@@ -375,6 +404,9 @@
 			    });
       		}
 		});
+
+
+
 
 		</script>
 	</body>
