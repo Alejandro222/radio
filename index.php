@@ -95,7 +95,7 @@
 
 												<!-- <h2>Escuchar Radio</h2> -->
 												<div>
-													<audio id="myAudio" controls  src="http://162.210.196.145:27660/;"  type="audio/mpeg"></audio>
+													<audio controls  src="http://162.210.196.145:27660/;"  type="audio/mpeg"></audio>
 												</div>
 
 
@@ -236,8 +236,6 @@
 		<script type="text/javascript" src="slick/slick.min.js"></script> <!-- Slick Carousel -->
 
 		<script>
-
-document.getElementById("myAudio").play();
 
 		var sidebarVisible = false;
 		var currentPageID = "#tm-section-1";
